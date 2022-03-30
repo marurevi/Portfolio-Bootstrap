@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/marurevi/Portfolio-Bootstrap/issues"
   },
-  "homepage": "https://github.com/marurevi/Portfolio-Bootstrap#readme"
+  "homepage": "https://github.com/marurevi/Portfolio-Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
