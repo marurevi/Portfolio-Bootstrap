@@ -1,4 +1,49 @@
 body {
-    background-color: #191765;
-    color: white;
+  background-color: #191765;
+  color: white;
+}
+
+.text1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9390FF;
+}
+
+.text2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500, Medium;
+  line-height: 46.88px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.text3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  justify-content: center;
+  text-align: center;
+  color: #B3BAC5;
+}
+
+.text4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29.33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9390FF;
 }
