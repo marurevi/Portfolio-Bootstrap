@@ -48,7 +48,7 @@ body {
   color: #9390ff;
 }
 .leftBG {
-  background-image: url(./images/circle2.svg);
+  background-image: url(./images/circle1.svg);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -56,4 +56,33 @@ body {
   background-image: url(./images/circle2.svg);
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+.project-card {
+  background-color: #191765;
+}
+
+.text5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700, bold;
+  line-height: 52px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.text6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  justify-content: center;
+  text-align: center;
+  color: #b3bac5;
+}
+
+.separate {
+  color: #555555;
 }
