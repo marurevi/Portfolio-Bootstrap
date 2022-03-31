@@ -4,18 +4,18 @@ body {
 }
 
 .text1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 90px;
   font-style: normal;
   font-weight: 700;
   line-height: 105px;
   letter-spacing: 0em;
   text-align: center;
-  color: #9390FF;
+  color: #9390ff;
 }
 
 .text2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500, Medium;
@@ -26,7 +26,7 @@ body {
 }
 
 .text3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -34,16 +34,26 @@ body {
   letter-spacing: 0em;
   justify-content: center;
   text-align: center;
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 .text4 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 29.33px;
   letter-spacing: 0em;
   text-align: center;
-  color: #9390FF;
+  color: #9390ff;
+}
+.leftBG {
+  background-image: url(./images/circle2.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rightBG {
+  background-image: url(./images/circle2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
