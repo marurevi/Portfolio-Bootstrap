@@ -9,6 +9,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
   </head>
   <body>
@@ -43,64 +46,70 @@
         </div>
       </nav>
 
-      <header class="container justfycontent-center">
-        <h1 class="row text-center">Laura Jong</h1>
-        <h2>Software Developer</h2>
-        <p>
-          I can help you build a product, feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
+      <header>
+        <div class="container justify-content-between mb-100"> 
+          <h1 class="text-center text1">Laura Jong</h1>
+          <h2 class="text2 text-center">Software Developer</h2>
+          <br class="cointeiner p-100 m-100">
+            <p class="text3 mt-100">
+              I can help you build a product, feature or website Look through some
+              of my work and experience! If you like what you see and have a project
+              you need coded, don’t hestiate to contact me.
+            </p>
+        </div>
       </header>
 
-      <main>
-        <div class="container">
-          <div class="col">
-            <h3>Language</h3>
-            <ul>
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>Css</li>
+      <section id="main">
+        <hr>
+        <div class="container row justify-items-center">
+          <div class="col text-center">
+            
+            <ul class="container list-unstyled">
+              <li class="text4 text-start">Language</li>
+              <li class="text-start">Javascript</li>
+              <li class="text-start">Ruby</li>
+              <li class="text-start">Html</li>
+              <li class="text-start">Css</li>
             </ul>
           </div>
-          <div class="col">
-            <h3>Frameworks</h3>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Ruby on Rails</li>
-              <li>RSPec</li>
-              <li>CopyBara</li>
-              <li>Selenium</li>
+          <div class="col text-center">
+            <ul class="container list-unstyled">
+              <li class="text4 text-start">Frameworks</li>
+              <li class="text-start">Bootstrap</li>
+              <li class="text-start">Ruby on Rails</li>
+              <li class="text-start">RSPec</li>
+              <li class="text-start">CopyBara</li>
+              <li class="text-start">Selenium</li>
             </ul>
           </div>
-          <div class="col">
-            <h3>Skills</h3>
-            <ul>
-              <li>Codekit</li>
-              <li>GitHub</li>
-              <li>Codepen</li>
-              <li>GitLab</li>
-              <li>Terminal</li>
+          <div class="col text-center">
+            <ul class="container list-unstyled">
+              <li class="text4 text-start">Skills</li>
+              <li class="text-start">Codekit</li>
+              <li class="text-start">GitHub</li>
+              <li class="text-start">Codepen</li>
+              <li class="text-start">GitLab</li>
+              <li class="text-start">Terminal</li>
             </ul>
           </div>
         </div>
-      </main>
-      <section class="social-media-links">
-        <a class="text-light" href="#">Work</a>
-        <ul>
-          <li><img src="./images/ic_github.png" alt="github" /></li>
-          <li><img src="./images/ic_linkedin.png" alt="LinkedIn" /></li>
-          <li><img src="./images/ic_angellist.png" alt="ic_angellist" /></li>
-          <li><img src="./images/ic_twitter.png" alt="twitter" /></li>
-          <li><img src="./images/ic_medium.png" alt="Medium" /></li>
+        <hr>
+      </section>
+      <section class="social-media-links row">
+        <a class="text-light text-center col-4" href="#">Work</a>
+        <ul class="col-4 list-unstyled row text-center">
+          <li class="col"><img src="./images/ic_github.png" alt="github" /></li>
+          <li class="col"><img src="./images/ic_linkedin.png" alt="LinkedIn" /></li>
+          <li class="col"><img src="./images/ic_angellist.png" alt="ic_angellist" /></li>
+          <li class="col"><img src="./images/ic_twitter.png" alt="twitter" /></li>
+          <li class="col"><img src="./images/ic_medium.png" alt="Medium" /></li>
         </ul>
-        <a class="text-light" href="#">Work</a>
+        <a class="text-light text-center col-4" href="#">Work</a>
       </section>
       <section class="my-work container-fluid">
         <h2>My work</h2>
         <article class="row">
-          <div class="col-8"><img src="" alt="project" /></div>
+          <div class="col-8"><img src="#" alt="project" /></div>
           <div class="col-4">
             <h3 class="text-capitalize">multi-post stories</h3>
             <p>
@@ -115,7 +124,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <button>See Project</button>
+            <button type="button">See Project</button>
           </div>
         </article>
         <article class="row">
@@ -133,12 +142,12 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <button>See Project</button>
+            <button type="button">See Project</button>
           </div>
-          <div class="col-8"><img src="" alt="project" /></div>
+          <div class="col-8"><img src="#" alt="project" /></div>
         </article>
         <article class="row">
-          <div class="col-8"><img src="" alt="project" /></div>
+          <div class="col-8"><img src="#" alt="project" /></div>
           <div class="col-4">
             <h3 class="text-capitalize">multi-post stories</h3>
             <p>
@@ -153,7 +162,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <button>See Project</button>
+            <button type="button">See Project</button>
           </div>
         </article>
         <article class="row">
@@ -171,9 +180,9 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <button>See Project</button>
+            <button type="button">See Project</button>
           </div>
-          <div class="col-8"><img src="" alt="project" /></div>
+          <div class="col-8"><img src="#" alt="project" /></div>
         </article>
       </section>
 
