@@ -74,6 +74,21 @@ body {
 
 .text6 {
   font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700, bold;
+  line-height: 114px;
+  color: #9390FF;
+}
+
+.card-body .tools li:not(:nth-child(1)) {
+  border-left: 1px solid #555;
+  height: 25px;
+  padding-left: 15px;
+}
+
+.text7 {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -81,8 +96,4 @@ body {
   justify-content: center;
   text-align: center;
   color: #b3bac5;
-}
-
-.separate {
-  color: #555555;
 }
